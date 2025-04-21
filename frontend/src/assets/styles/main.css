@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background: #2d3e50;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sidebar {
+    background: #34495e;
+    color: #fff;
+    width: 200px;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  .status-badge {
+    padding: 0.3em 1em;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 0.9em;
+    display: inline-block;
+  }
+  .status-badge.Pending { background: #f39c12; }
+  .status-badge.Confirmed { background: #2980b9; }
+  .status-badge.Preparing { background: #8e44ad; }
+  .status-badge.Ready { background: #27ae60; }
+  .status-badge.Out-for-Delivery { background: #16a085; }
+  .status-badge.Delivered { background: #2ecc71; }
+  .status-badge.Cancelled { background: #e74c3c; }
+  
