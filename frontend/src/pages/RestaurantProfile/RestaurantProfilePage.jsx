@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetchRestaurant, updateRestaurant } from "../../api/restaurantApi";
+import { getRestaurant as fetchRestaurant } from "../../api/restaurantApi";
 import useAuth from "../../hooks/useAuth";
 
 const RestaurantProfilePage = () => {
